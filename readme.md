@@ -1,6 +1,6 @@
 # LLM Instruction Generation – Fine-tuning with LoRA
 
-This repository is a take-home test for a Machine Learning Engineer / Data Scientist position. It focuses on building a fine-tuned language model that generates **structured, task-oriented instructions** from user intent using **LoRA-based fine-tuning**.
+
 
 ---
 
