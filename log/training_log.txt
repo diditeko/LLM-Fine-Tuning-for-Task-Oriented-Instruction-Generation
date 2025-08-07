@@ -1,0 +1,28 @@
+Training Log - Fine-tuning TinyLlama with LoRA
+
+Base Model:
+TinyLlama/TinyLlama-1.1B-Chat
+
+Adapter Type:
+LoRA
+ - r: 8
+ - alpha: 16
+ - dropout: 0.05
+
+Training Configuration:
+ - Epochs: 10
+ - Batch Size: 4
+ - Learning Rate: 2e-4
+
+
+Training Steps:
+ - Total steps: 33,600
+ - Final training loss: 1.21
+
+Dataset:
+ - Format: Dollt-15kJSONL
+ - Preprocessed entries: 13677 (filtered: input not empty)
+ - Tokenizer: AutoTokenizer (pad_token = eos_token)
+
+Output:
+ - Adapter saved in: model/
