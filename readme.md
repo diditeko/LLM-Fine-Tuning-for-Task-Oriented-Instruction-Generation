@@ -35,7 +35,7 @@ The goal is to fine-tune a base LLM to generate **step-by-step instructions** ba
 
 ---
 
-## 3️ Model Choice and Training
+## 3. Model Choice and Training
 
 ### Model Used
 We fine-tune `TinyLlama/TinyLlama-1.1B-Chat` using **LoRA (Low-Rank Adaptation)** for efficient parameter-efficient training.
@@ -63,7 +63,7 @@ why LoRA :
 
 ---
 
-## 4️. Evaluation Strategy
+## 4. Evaluation Model
 
 ### Quantitative Metric
 - ROUGE-L: To evaluate content similarity between predicted and ground-truth instructions.
